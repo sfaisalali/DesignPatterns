@@ -1,0 +1,14 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/DataStructuresAlgorithm/x64/Debug
+/DataStructuresAlgorithm/.vs/DS/v15
+/DesignPatterns/Debug
+/DesignPatterns/.vs/DesignPatterns/v15
+/.vs/Learning/v15/.suo
+/DataStructuresAlgorithm/.vs/Learning/v15/Solution.VC.db-wal
+/DataStructuresAlgorithm/.vs/Learning/v15/Solution.VC.db-shm
+/DataStructuresAlgorithm/.vs/Learning/v15/Solution.VC.db
+/DataStructuresAlgorithm/.vs/DataStructuresAlgorithm/v15/Browse.VC.opendb
+/DataStructuresAlgorithm/.vs/DataStructuresAlgorithm/v15/Browse.VC.db

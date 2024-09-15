@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source\Tree">
+      <UniqueIdentifier>{b5a85247-3e9b-48b5-8ce5-b7aa0228113a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Tree\Heap">
+      <UniqueIdentifier>{d7194fd1-20e9-41ed-bc43-ebf3ae438d49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Sort">
+      <UniqueIdentifier>{cb9896a2-713b-47c1-9b9d-d4c12e53cd17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Arrays">
+      <UniqueIdentifier>{00143c61-e64c-4aef-9d70-f3c92a4380f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Arrays\Lists">
+      <UniqueIdentifier>{f4b793d6-765f-4e00-b4a7-56dd37830ec0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Arrays\Iterator">
+      <UniqueIdentifier>{5bb80c30-4554-48ca-a297-85e0fdcf7a36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Arrays\Application">
+      <UniqueIdentifier>{72f1bb28-7a57-42cb-ab7f-f17fb3bca2f5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BinarySearchTree.h">
+      <Filter>Source\Tree</Filter>
+    </ClInclude>
+    <ClInclude Include="AVLTree.h">
+      <Filter>Source\Tree</Filter>
+    </ClInclude>
+    <ClInclude Include="Heap.h">
+      <Filter>Source\Tree\Heap</Filter>
+    </ClInclude>
+    <ClInclude Include="IHeap.h">
+      <Filter>Source\Tree\Heap</Filter>
+    </ClInclude>
+    <ClInclude Include="MaxHeap.h">
+      <Filter>Source\Tree\Heap</Filter>
+    </ClInclude>
+    <ClInclude Include="MinHeap.h">
+      <Filter>Source\Tree\Heap</Filter>
+    </ClInclude>
+    <ClInclude Include="SelectionSort.h">
+      <Filter>Source\Sort</Filter>
+    </ClInclude>
+    <ClInclude Include="QuickSort.h">
+      <Filter>Source\Sort</Filter>
+    </ClInclude>
+    <ClInclude Include="MergeSort.h">
+      <Filter>Source\Sort</Filter>
+    </ClInclude>
+    <ClInclude Include="InsertionSort.h">
+      <Filter>Source\Sort</Filter>
+    </ClInclude>
+    <ClInclude Include="BubbleSort.h">
+      <Filter>Source\Sort</Filter>
+    </ClInclude>
+    <ClInclude Include="ISort.h">
+      <Filter>Source\Sort</Filter>
+    </ClInclude>
+    <ClInclude Include="DoubleLinkedList.h">
+      <Filter>Source\Arrays\Lists</Filter>
+    </ClInclude>
+    <ClInclude Include="DynamicArray.h">
+      <Filter>Source\Arrays\Lists</Filter>
+    </ClInclude>
+    <ClInclude Include="IIterator.h">
+      <Filter>Source\Arrays\Iterator</Filter>
+    </ClInclude>
+    <ClInclude Include="Iterator.h">
+      <Filter>Source\Arrays\Iterator</Filter>
+    </ClInclude>
+    <ClInclude Include="IArray.h">
+      <Filter>Source\Arrays\Lists</Filter>
+    </ClInclude>
+    <ClInclude Include="SingleLinkedList.h">
+      <Filter>Source\Arrays\Lists</Filter>
+    </ClInclude>
+    <ClInclude Include="Stack.h">
+      <Filter>Source\Arrays\Application</Filter>
+    </ClInclude>
+    <ClInclude Include="Queue.h">
+      <Filter>Source\Arrays\Application</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
